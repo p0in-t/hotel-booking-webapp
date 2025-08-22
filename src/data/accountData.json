@@ -1,0 +1,23 @@
+[   
+    {
+        "uid": 0,
+        "email": "exampleEmail@gmail.com",
+        "username": "example",
+        "password": "example",
+        "balance": 1200
+    },
+    {
+        "uid": 1,
+        "email": "exampleEmail2@gmail.com",
+        "username": "example2",
+        "password": "example2",
+        "balance": 800
+    },
+    {
+        "uid": 2,
+        "email": "exampleEmail3@gmail.com",
+        "username": "example3",
+        "password": "example3",
+        "balance": 18000
+    }
+]

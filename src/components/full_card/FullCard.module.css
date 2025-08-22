@@ -1,0 +1,179 @@
+.roomContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    width: fit-content;
+    box-shadow: 0px 0px 15px rgb(137, 136, 136);
+    border-radius: 10px;
+    margin: 10px;
+    overflow-x: hidden;
+}
+
+.galleryContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 20px;
+}
+
+.roomInfo {
+    margin: 10px;
+    display: flex;
+    flex: 1;
+}
+
+.roomDetails {
+    display: flex;
+    flex-direction: column;
+    align-self: right;
+    justify-content: center;
+    width: 100%;
+}
+
+.nameDesc {
+    display: flex;
+    margin-right: 20px;
+    max-width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.descriptionBox {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 5px black;
+    padding: 15px;
+}
+
+.roomImage {
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.hotelName {
+    margin: 2px;
+    margin-left: 10%;
+    padding: 0px;
+    width: 100%;
+    font-family: Corbel;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+    color: rgb(21, 81, 165);
+}
+
+.headerInfoContainer {
+    width: 100%;
+    text-align: left;
+    margin: 2px;
+    margin-left: 10%;
+}
+
+.hotelInfo {
+    margin: 2px;
+    font-family: Corbel;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+}
+
+.hotelRatingContainer {
+    align-self: center;
+    min-width: 20px;
+    min-height: 20px;
+    background-color: rgb(15, 81, 189);
+    width: fit-content;
+    border-radius: 5px;
+    margin: 2px;
+    color: white;
+    text-align: center;
+    font-family: Corbel;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+}
+
+.reserveContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reserveForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+}
+
+.reserveDate {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="date"] {
+    margin: 2px;
+    margin-left: 15px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+input[type="date"]:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+button.reserveButton {
+    display: inline-block;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 20px 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+button.reserveButton:hover {
+    background-color: #0056b3;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+}
+
+button.reserveButton:active {
+    background-color: #004494;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+button.reserveButton:focus {
+    outline: none;
+}

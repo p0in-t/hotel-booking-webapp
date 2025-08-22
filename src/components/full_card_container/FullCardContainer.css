@@ -1,0 +1,8 @@
+.full-card-container {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}

@@ -1,0 +1,17 @@
+.account-main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.account-info {
+    margin: 20px;
+    font-family: Tahoma;
+    font-size: 26px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p{
+    margin: 10px;
+}

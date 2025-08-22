@@ -1,0 +1,186 @@
+.searchBarContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 30vw;
+    background-color: rgb(57, 82, 171);
+    color: white;
+    border-radius: 20px;
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.searchBar {
+    box-shadow: 0px 0px 5px black;
+    border-radius: 20px;
+    width: 95%;
+    height: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.searchParameterForm {
+    font-family: Corbel;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.searchElement {
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.paramLabel {
+    font-family: Corbel;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 10px;
+}
+
+.filterOptions {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    align-self: left;
+}
+
+.submitButton {
+    margin: 10px;
+    background-image: linear-gradient(rgb(47, 105, 200), rgb(52, 87, 167));
+    color: white;
+    border: 0;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    font-family: Corbel;
+    font-size: .875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    padding: .75rem 1rem;
+    text-align: center;
+    text-decoration: none #D1D5DB solid;
+    text-decoration-thickness: auto;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.submitButton:hover {
+    color: rgb(198, 207, 250);
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.1), 0 1px 6px 0 rgba(0, 0, 0, 0.06);
+}
+
+.submitButton:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.submitButton:focus-visible {
+  box-shadow: none;
+}
+
+.selectSort{
+    font-family: Corbel;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 20px;
+    position: relative;
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    text-transform: capitalize;
+    color: #fff;
+    background: rgb(48, 89, 177);
+    box-shadow: 0px 0px 5px black;
+    text-align: left;
+    padding: 2px 2px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.selectSort::after{
+    content: '';
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+    width: 6px;
+    height: 6px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.selectSort:hover{
+    background: rgb(59, 103, 197);
+}
+
+.selectSort.active{
+    background: #2c456f;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+options{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: fit-content;
+    background: rgba(0, 79, 176, 0.5);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+    display: none;
+}
+
+options.active{
+    display: block;
+}
+
+options.item{
+    color: #fff;
+    text-transform: capitalize;
+    width: 100%;
+    height: 150px;
+    padding: 0 2px;
+    line-height: 15px;
+    cursor: pointer;
+}
+
+options.item.active{
+    background: #263b7a;
+}
+
+input[type='number'] {
+    max-width: 50px;
+}
+
+input[type='text'] {
+    font-family: Corbel;
+    font-size: 12px;
+    font-weight: 600;
+    width: 150px;
+    padding: 5px 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input[type='text']::placeholder {
+    color: #999;
+}
+
+.input[type='text']:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+}

@@ -1,0 +1,37 @@
+[   
+    {
+        "uid": 0,
+        "reservations": [
+            {
+                "hotel_id": "1",
+                "check_in": "2024-07-16",
+                "check_out": "2024-07-26" 
+            }
+        ]
+    },
+    {
+        "uid": 1,
+        "reservations": [
+            {
+                "hotel_id": "10",
+                "check_in": "2024-08-12",
+                "check_out": "2024-08-16"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "reservations": [
+            {
+                "hotel_id": "10",
+                "check_in": "2024-09-12",
+                "check_out": "2024-09-22"
+            },
+            {
+                "hotel_id": "1",
+                "check_in": "2024-09-12",
+                "check_out": "2024-09-22"
+            }
+        ]
+    }
+]

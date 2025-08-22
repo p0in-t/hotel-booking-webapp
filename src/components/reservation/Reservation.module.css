@@ -1,0 +1,79 @@
+.roomContainer {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 0px 15px rgb(137, 136, 136);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.roomContainer:hover {
+    background-color: rgb(233, 235, 240);
+}
+
+.roomInfo {
+    margin: 10px;
+    display: flex;
+    flex: 1;
+}
+
+.roomDetails {
+    display: flex;
+    flex-direction: column;
+    align-self: right;
+    justify-content: center;
+    width: 100%;
+}
+
+.nameDesc {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    max-width: 50%;
+}
+
+.descriptionBox {
+    box-shadow: 0px 0px 5px black;
+    margin-top: 20px;
+}
+
+.roomImage {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.hotelName {
+    margin: 2px;
+    padding: 0px;
+    font-family: Corbel;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(21, 81, 165);
+}
+
+.hotelInfo {
+    margin: 2px;
+    font-family: Corbel;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+}
+
+.hotelRatingContainer {
+    align-self: center;
+    min-width: 20px;
+    min-height: 20px;
+    background-color: rgb(15, 81, 189);
+    width: fit-content;
+    border-radius: 5px;
+    margin: 2px;
+    color: white;
+    text-align: center;
+    font-family: Corbel;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,61 @@
+.main-login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.login-type-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email-login-container {
+    margin-bottom: 20px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-family: Corbel;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.login-button {
+    margin: 10px;
+    background-image: linear-gradient(rgb(47, 105, 200), rgb(52, 87, 167));
+    color: white;
+    border: 0;
+    border-radius: .75rem;
+    box-sizing: border-box;
+    font-family: Corbel;
+    font-size: 1.175rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    padding: 0.75rem 1.5rem;
+    text-align: center;
+    text-decoration: none #D1D5DB solid;
+    text-decoration-thickness: auto;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.login-button:hover {
+    color: rgb(198, 207, 250);
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.1), 0 1px 6px 0 rgba(0, 0, 0, 0.06);
+}
+
+.login-button:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.login-button:focus-visible {
+  box-shadow: none;
+}
